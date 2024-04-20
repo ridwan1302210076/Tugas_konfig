@@ -22,6 +22,7 @@ namespace Login_Menu
             {
                 switch (login)
                 {
+                    //jika login menu yang dipilih mulai akan muncul username yang akan dimasukan
                     case LoginMenu.MULAI:
                         Console.WriteLine("Masukkan Username Anda :");
                         login = LoginMenu.USERNAME;
