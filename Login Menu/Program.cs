@@ -15,9 +15,9 @@ namespace Login_Menu
             string[,] userTable = new string[,] { { "Andi Erlangga", "12345" }, { "noobmaster69", "09876" } };
 
             LoginMenu login = LoginMenu.MULAI;
-
+            // menyimpan data username
             string TxtUsername = "";
-
+            
             while (login != LoginMenu.ERROR && login != LoginMenu.BERHASIL)
             {
                 switch (login)
