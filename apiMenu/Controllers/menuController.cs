@@ -20,6 +20,7 @@ namespace apiMenu.Controllers
         {
             return MenuManager.GetMenus();
         }
+        //mengambil data berdasarkan nama  menu
         [HttpGet("{nama}")]
         public ActionResult<menu> GetMenuByNama(string nama)
         {
