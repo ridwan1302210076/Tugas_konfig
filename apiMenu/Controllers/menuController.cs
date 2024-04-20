@@ -14,7 +14,7 @@ namespace apiMenu.Controllers
     {
         private const string filePath = "menu.json";
 
-        // GET: api/Menu
+        // meng-get data menu keseluruhan yang diambil dari menu
         [HttpGet]
         public ActionResult<List<menu>> Get()
         {
