@@ -34,6 +34,7 @@ namespace apiMenu.Controllers
                 return NotFound();
             }
         }
+        // mengirimm data sesuai dengan objeknya kirim ke file json
         // POST: api/Menu
         [HttpPost]
         public ActionResult Post([FromBody] menu menu)
