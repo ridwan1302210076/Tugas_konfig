@@ -107,22 +107,22 @@ namespace menu_pembelian
             }
         }
 
-        public static void DeleteMenu(string nama)
+                public static void DeleteMenu(string menuName)
         {
-            Contract.Ensures(!menus.Any(menu => menu.Nama == nama));
+            Contract.Ensures(!menus.Any(menu => menu.Nama == menuName));
 
-            var menuToRemove = menus.FirstOrDefault(m => m.Nama == nama);
+            var menuToRemove = menus.FirstOrDefault(menu => menu.Nama == menuName);
             if (menuToRemove != null)
             {
                 menus.Remove(menuToRemove);
-                Console.WriteLine($"Menu with name '{nama}' has been deleted from the library.");
+                Console.WriteLine($"Menu with name '{menuName}' has been deleted from the library.");
             }
             else
             {
-                Console.WriteLine($"Menu with name '{nama}' not found.");
+                Console.WriteLine($"Menu with name '{menuName}' not found.");
             }
-
         }
+
     }
 }
 
