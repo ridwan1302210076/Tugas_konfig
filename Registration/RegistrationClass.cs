@@ -58,6 +58,7 @@ namespace Registration
                 }
                 else
                 {
+                     Console.WriteLine("Password telah dikonfirmasi.");
 
                 }
             } while (pw != confirmpw || RegistrationLibrary.areNull(confirmpw) == true);
