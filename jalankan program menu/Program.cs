@@ -88,7 +88,7 @@ public class Program
                                         break;
                                 }
                             }
-                            break;
+                          
                         default:
                             Console.WriteLine("pihan anda tidak ada mohon masukan kembali");
                             break;
