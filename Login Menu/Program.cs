@@ -61,7 +61,7 @@ namespace Login_Menu
             // Tampilkan pesan jika login gagal
             if (login == LoginMenu.ERROR)
             {
-                Console.WriteLine("Login Gagal!");
+                Console.WriteLine("Login failed!");
             }
         }
     }
